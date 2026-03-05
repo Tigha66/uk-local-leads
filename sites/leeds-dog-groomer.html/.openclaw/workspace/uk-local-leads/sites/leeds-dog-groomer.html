@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Claws | Professional Dog Grooming Leeds</title>
+    <meta name="description" content="Professional dog grooming in Leeds. Bath, trim, nail clip. Full grooming service. Book your pup's pamper day.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1920');
+            background-size: cover;
+            background-position: center;
+        }
+        .btn-primary { background: #8B5CF6; transition: all 0.3s ease; }
+        .btn-primary:hover { filter: brightness(110%); transform: translateY(-2px); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-900">🐕 Paws & Claws</h1>
+            <a href="#contact" class="btn-primary text-white px-5 py-2 rounded-lg font-medium">Book Now</a>
+        </div>
+    </nav>
+
+    <section class="hero-bg h-screen flex items-center justify-center text-center px-4">
+        <div class="max-w-3xl">
+            <h2 class="text-4xl md:text-6xl font-bold text-white mb-6">Leeds' Favourite Dog Groomers</h2>
+            <p class="text-xl text-gray-200 mb-8">Full grooming, bath & blow dry, nail trimming. Your furry friend will love it here!</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold text-lg">Book Grooming</a>
+                <a href="tel:01131234567" class="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition">📞 Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-12">Our Services</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-4">🛁</div>
+                    <h4 class="text-xl font-semibold mb-3">Full Groom</h4>
+                    <p class="text-gray-600">Bath, blow dry, brush, clip, nails. From £35.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-4">✂️</div>
+                    <h4 class="text-xl font-semibold mb-3">Breed-Specific Trim</h4>
+                    <p class="text-gray-600">Hand stripping, scissor work. From £45.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-4">💅</div>
+                    <h4 class="text-xl font-semibold mb-3">Nail & Pamper</h4>
+                    <p class="text-gray-600">Nail clip, ear clean, teeth check. From £15.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4 bg-purple-50">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-12">Why Choose Us</h3>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center"><div class="text-4xl mb-3">❤️</div><h4 class="font-semibold">City Centre Location</h4></div>
+                <div class="text-center"><div class="text-4xl mb-3">⏰</div><h4 class="font-semibold">Drop-Off Available</h4></div>
+                <div class="text-center"><div class="text-4xl mb-3">🎁</div><h4 class="font-semibold">First Visit 20% Off</h4></div>
+                <div class="text-center"><div class="text-4xl mb-3">⭐</div><h4 class="font-semibold">5-Star Reviews</h4></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4">
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div class="md:flex">
+                <div class="md:w-1/2 bg-purple-600 p-8 text-white">
+                    <h3 class="text-2xl font-bold mb-6">Get In Touch</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3"><span>📍</span><span>23 Headingley Lane, Leeds LS6 1DJ</span></div>
+                        <div class="flex items-center gap-3"><span>📞</span><a href="tel:01131234567" class="hover:underline">0113 123 4567</a></div>
+                        <div class="flex items-center gap-3"><span>✉️</span><span>hello@pawsandclawsleeds.co.uk</span></div>
+                        <div class="flex items-center gap-3"><span>🕐</span><span>Tue-Sat 9am-5pm</span></div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 p-8">
+                    <h3 class="text-2xl font-bold mb-6">Book Appointment</h3>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-3 border rounded-lg">
+                        <input type="tel" placeholder="Phone Number" class="w-full px-4 py-3 border rounded-lg">
+                        <input type="text" placeholder="Dog's Name & Breed" class="w-full px-4 py-3 border rounded-lg">
+                        <select class="w-full px-4 py-3 border rounded-lg">
+                            <option>Select Service</option>
+                            <option>Full Groom (£35+)</option>
+                            <option>Wash & Dry (£20)</option>
+                            <option>Nail Trim (£10)</option>
+                        </select>
+                        <button type="submit" class="btn-primary w-full text-white px-6 py-3 rounded-lg font-semibold">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-gray-400">© 2026 Paws & Claws Leeds. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
