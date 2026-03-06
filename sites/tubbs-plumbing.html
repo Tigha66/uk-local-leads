@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubbs Plumbing | London's Trusted Plumbers</title>
+    <meta name="description" content="Reliable husband and wife team with local expert knowledge. Emergency plumbing services in London. Call now for leaks, blockages, and all plumbing needs.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { font-family: 'Plus Jakarta Sans', sans-serif; }
+        h1, h2, h3 { font-family: 'Outfit', sans-serif; }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0ea5e9 100%);
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(14, 165, 233, 0.25);
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .glow {
+            box-shadow: 0 0 60px rgba(14, 165, 233, 0.4);
+        }
+        
+        .btn-glow:hover {
+            box-shadow: 0 0 30px rgba(14, 165, 233, 0.6);
+        }
+        
+        .pattern-dots {
+            background-image: radial-gradient(rgba(14, 165, 233, 0.3) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-card border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-xl flex items-center justify-center">
+                        <i class="fa-solid fa-wrench text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold">Tubbs<span class="text-cyan-400">Plumbing</span></h1>
+                        <p class="text-xs text-gray-400">London's Trusted Plumbers</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#services" class="text-gray-300 hover:text-cyan-400 transition font-medium">Services</a>
+                    <a href="#about" class="text-gray-300 hover:text-cyan-400 transition font-medium">About</a>
+                    <a href="#reviews" class="text-gray-300 hover:text-cyan-400 transition font-medium">Reviews</a>
+                    <a href="#contact" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 px-6 py-2.5 rounded-full font-semibold transition btn-glow">Get Quote</a>
+                </div>
+                <a href="tel:02086959165" class="md:hidden text-cyan-400">
+                    <i class="fa-solid fa-phone text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient min-h-screen flex items-center relative overflow-hidden">
+        <div class="absolute inset-0 pattern-dots opacity-30"></div>
+        <div class="absolute top-20 right-0 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 rounded-full px-4 py-1.5 mb-6">
+                        <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                        <span class="text-green-400 text-sm font-medium">Open 24 Hours</span>
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-7xl font-extrabold leading-tight mb-6">
+                        London's Most
+                        <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                            Reliable Plumbers
+                        </span>
+                    </h1>
+                    
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        Husband & wife team with local expert knowledge. Professional plumbing services for all your needs — from emergency repairs to installations.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 mb-12">
+                        <a href="tel:02086959165" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 px-8 py-4 rounded-2xl font-bold text-lg transition btn-glow text-center">
+                            <i class="fa-solid fa-phone mr-2"></i> Call Now
+                        </a>
+                        <a href="#contact" class="glass-card hover:bg-white/10 px-8 py-4 rounded-2xl font-semibold text-lg transition text-center border border-white/20">
+                            Get Free Quote
+                        </a>
+                    </div>
+                    
+                    <div class="flex items-center gap-6">
+                        <div class="flex -space-x-3">
+                            <div class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-white font-bold border-2 border-slate-900">KS</div>
+                            <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center text-white font-bold border-2 border-slate-900">MB</div>
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <i class="fa-solid fa-star text-amber-400"></i>
+                                <i class="fa-solid fa-star text-amber-400"></i>
+                                <i class="fa-solid fa-star text-amber-400"></i>
+                                <i class="fa-solid fa-star text-amber-400"></i>
+                                <i class="fa-solid fa-star text-amber-400"></i>
+                                <span class="text-amber-400 font-bold ml-2">5.0</span>
+                            </div>
+                            <p class="text-gray-400 text-sm">From 2 verified reviews</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative floating">
+                    <div class="glass-card rounded-3xl p-8 glow border border-cyan-500/30">
+                        <div class="text-center">
+                            <div class="w-24 h-24 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+                                <i class="fa-solid fa-shield-halved text-4xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-4">Emergency?</h3>
+                            <p class="text-gray-300 mb-6">We're available 24/7 for all your plumbing emergencies. No job too big or small.</p>
+                            <a href="tel:02086959165" class="block bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400 hover:to-emerald-500 px-6 py-3 rounded-xl font-bold transition">
+                                <i class="fa-solid fa-phone mr-2"></i> 020 8695 9165
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-cyan-400 font-semibold tracking-wider uppercase text-sm">Our Services</span>
+                <h2 class="text-4xl lg:text-5xl font-bold mt-2">Comprehensive Plumbing Services</h2>
+                <p class="text-gray-400 text-lg mt-4 max-w-2xl mx-auto">From routine maintenance to emergency repairs, we've got you covered.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="service-card glass-card rounded-2xl p-8 transition-all duration-300 border border-white/10 hover:border-cyan-500/50">
+                    <div class="w-14 h-14 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-faucet-drip text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Leak & Tap Repairs</h3>
+                    <p class="text-gray-400">Dripping taps, leaking pipes, and toilet repairs. We fix it all quickly and professionally.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card glass-card rounded-2xl p-8 transition-all duration-300 border border-white/10 hover:border-cyan-500/50">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-toilet text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Blocked Toilets & Sinks</h3>
+                    <p class="text-gray-400">Fast clearance of blocked drains, toilets, and sinks. Same-day service guaranteed.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card glass-card rounded-2xl p-8 transition-all duration-300 border border-white/10 hover:border-cyan-500/50">
+                    <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-fire text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Burst Pipes</h3>
+                    <p class="text-gray-400">Emergency burst pipe repairs. We'll stop the leak and fix the problem fast.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card glass-card rounded-2xl p-8 transition-all duration-300 border border-white/10 hover:border-cyan-500/50">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-shower text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Shower Installations</h3>
+                    <p class="text-gray-400">Professional shower and wet room installations. Quality workmanship guaranteed.</p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card glass-card rounded-2xl p-8 transition-all duration-300 border border-white/10 hover:border-cyan-500/50">
+                    <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-radiators text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Central Heating</h3>
+                    <p class="text-gray-400">Radiator repairs and central heating issues. Keep your home warm this winter.</p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card glass-card rounded-2xl p-8 transition-all duration-300 border border-white/10 hover:border-cyan-500/50">
+                    <div class="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-faucet text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Kitchen & Bathroom</h3>
+                    <p class="text-gray-400">Appliance installations and plumbing for kitchens and bathrooms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-24 bg-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-cyan-400 font-semibold tracking-wider uppercase text-sm">Why Choose Us</span>
+                    <h2 class="text-4xl font-bold mt-2 mb-6">Local Experts You Can Trust</h2>
+                    <p class="text-gray-300 text-lg mb-8">As a husband and wife team, we bring personal attention to every job. We're not just plumbers — we're your neighbors.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-cyan-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-clock text-cyan-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">24/7 Emergency Service</h4>
+                                <p class="text-gray-400">We're here when you need us most. Day or night, rain or shine.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-cyan-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-certificate text-cyan-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Professional & Qualified</h4>
+                                <p class="text-gray-400">Years of experience with local expert knowledge of London plumbing.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-cyan-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-pound-sign text-cyan-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Free Initial Consultation</h4>
+                                <p class="text-gray-400">No call-out fees. Honest pricing with no hidden surprises.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="glass-card rounded-3xl p-8 border border-cyan-500/30">
+                        <div class="text-center mb-8">
+                            <div class="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 rounded-full px-4 py-2 mb-4">
+                                <i class="fa-solid fa-star text-amber-400"></i>
+                                <span class="text-green-400 font-bold">5.0 Rating</span>
+                            </div>
+                            <h3 class="text-2xl font-bold">What Our Clients Say</h3>
+                        </div>
+                        
+                        <div class="space-y-6">
+                            <div class="bg-slate-700/50 rounded-xl p-6">
+                                <div class="flex items-center gap-1 mb-3">
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                </div>
+                                <p class="text-gray-300 italic">"This very efficient plumber fixed a problem for me that a previous plumber reckoned couldn't be fixed. Would definitely use them again."</p>
+                                <p class="text-cyan-400 font-semibold mt-3">— KSIB</p>
+                            </div>
+                            
+                            <div class="bg-slate-700/50 rounded-xl p-6">
+                                <div class="flex items-center gap-1 mb-3">
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                    <i class="fa-solid fa-star text-amber-400"></i>
+                                </div>
+                                <p class="text-gray-300 italic">"Really nice couple who are very professional. Work was done quickly and the price was great too. Very happy with the service."</p>
+                                <p class="text-cyan-400 font-semibold mt-3">— Mr_Blonde</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-24 bg-gradient-to-br from-cyan-600 to-blue-700 relative overflow-hidden">
+        <div class="absolute inset-0 pattern-dots opacity-20"></div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6">Ready to Fix Your Plumbing?</h2>
+                <p class="text-xl text-cyan-100 mb-8">Get in touch for a free quote. We're here to help!</p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="tel:02086959165" class="bg-white text-slate-900 hover:bg-gray-100 px-10 py-5 rounded-2xl font-bold text-xl transition shadow-lg">
+                        <i class="fa-solid fa-phone mr-2"></i> 020 8695 9165
+                    </a>
+                    <a href="mailto:info@tubbsplumbing.co.uk" class="glass-card hover:bg-white/10 px-10 py-5 rounded-2xl font-bold text-xl transition border-2 border-white/30">
+                        <i class="fa-solid fa-envelope mr-2"></i> Email Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 py-12 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fa-solid fa-wrench text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Tubbs<span class="text-cyan-400">Plumbing</span></h3>
+                    </div>
+                    <p class="text-gray-400">London's trusted husband and wife plumbing team. Professional service since 2011.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Contact</h4>
+                    <div class="space-y-3 text-gray-400">
+                        <p><i class="fa-solid fa-location-dot mr-2 text-cyan-400"></i>2 Battersby Road, London, SE6 1SD</p>
+                        <p><i class="fa-solid fa-phone mr-2 text-cyan-400"></i>020 8695 9165</p>
+                        <p><i class="fa-solid fa-clock mr-2 text-cyan-400"></i>Open 24 Hours</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Emergency Plumbing</li>
+                        <li>Leak Repairs</li>
+                        <li>Blocked Drains</li>
+                        <li>Central Heating</li>
+                        <li>Shower Installation</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 text-center text-gray-500">
+                <p>&copy; 2026 Tubbs Plumbing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
